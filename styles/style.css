@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #3a3939;
+}
+
+header {
+  background-color: #3a3939;
+  position: fixed;
+  color: white;
+  width: 100%;
+}
+
+.header-logo {
+  justify-self: center;
+}
+
+.logo-name {
+  display: none;
+}
+
+.logo-logo img {
+  width: 50px;
+}
+
+.menus {
+  display: none;
+}
+
+.main-head {
+  background-image: url("../images/ba-xx.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  text-align: center;
+}
+
+.head h1 {
+  padding-top: 140px;
+  font-size: 4.4rem;
+  color: #3a3939;
+  font-weight: 600;
+  text-align: center;
+}
+
+.head p {
+  text-align: center;
+  font-weight: 400;
+  color: #3a3939;
+}
+
+.main-butt {
+  margin-top: 40px;
+  padding: 13px;
+  width: 280px;
+  border-radius: 30px;
+  background-color: #3a3939;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    justify-self: start;
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 60px;
+  }
+
+  .logo-name {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  .main-head {
+    height: 580px;
+  }
+
+  .menus {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 90px;
+    margin-top: 10px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.03s ease;
+  }
+
+  a:hover {
+    background-color: #cfcece;
+    color: #3a3939;
+    padding: 29px;
+  }
+
+  .head h1 {
+    padding-top: 200px;
+    font-size: 5rem;
+  }
+
+  .main-butt {
+    margin-top: 80px;
+  }
+}
