@@ -91,7 +91,7 @@ header {
   text-align: center;
   box-shadow: 0 0 4px 4px #d9d8d8;
   margin-bottom: 20px;
-  transition: 0.3sec ease;
+  transition: 0.3s ease;
 }
 
 .secs:hover {
@@ -274,7 +274,7 @@ header {
   font-weight: 900;
 }
 
-img {
+.git img {
   width: 60px;
 }
 
@@ -307,6 +307,7 @@ img {
   height: 30px;
   border-radius: 5px;
 }
+
 .remo img {
   width: 30px;
   height: 30;
