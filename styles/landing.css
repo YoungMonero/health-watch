@@ -13,7 +13,7 @@
 
 .logo-name {
   margin-top: 20px;
-  font: 25px solid black;
+  font-family: 25px "solid black";
 }
 
 img {
@@ -41,10 +41,11 @@ img {
   margin-bottom: 100px;
 }
 
-@media  screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .concluding {
     background-color: #bfbbbb;
   }
+  
   .end {
     display: flex;
     justify-content: space-between;
@@ -55,3 +56,4 @@ img {
     gap: 1rem;
   }
 }  
+ 
