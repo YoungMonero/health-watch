@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.concluding {
+  padding: 1rem;
+}
+
+.webs {
+  display: flex;
+}
+
+.logo-name {
+  margin-top: 20px;
+  font: 25px;
+}
+
+img {
+  width: 60px;
+}
+
+.view,
+.review,
+.see,
+.type {
+  margin-top: 10px;
+}
+
+.see {
+  margin-bottom: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom svg {
+  width: 20px;
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .concluding {
+    background-color: #bfbbbb;
+  }
+
+  .end {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .policy {
+    display: flex;
+    gap: 1rem;
+  }
+}
