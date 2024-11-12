@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Host Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -40,6 +44,7 @@ header {
   background-repeat: no-repeat;
   height: 500px;
   text-align: center;
+  width: 100%;
 }
 
 .head h1 {
@@ -66,6 +71,253 @@ header {
   border: none;
   font-weight: 600;
   cursor: pointer;
+}
+
+.sec-h h2 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2rem;
+}
+
+.sec-h p {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.secs {
+  width: 300px;
+  justify-self: center;
+  height: 500px;
+  text-align: center;
+  box-shadow: 0 0 4px 4px #d9d8d8;
+  margin-bottom: 20px;
+  transition: 0.3sec ease;
+}
+
+.secs:hover {
+  transform: scale(1.01);
+}
+
+.hover-button {
+  padding: 10px;
+  width: 100px;
+  background-color: #3a3939;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.secs p {
+  font-size: 1.6rem;
+}
+
+.secs h5 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.secs img {
+  width: 100%;
+  height: 330px;
+}
+
+.section-i {
+  margin-top: 40px;
+}
+
+.section-i h2 {
+  text-align: center;
+}
+
+.section-i p {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.section-ii {
+  display: none;
+}
+
+.sec-iv {
+  display: flex;
+  margin-top: 60px;
+  background-color: #d9d8d8;
+}
+
+.features {
+  width: 450px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.hh {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.seciv-img img {
+  width: 250px;
+  padding-top: 150px;
+  margin-left: -150px;
+}
+
+.aaa {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+  justify-self: center;
+  margin-left: 20px;
+}
+
+.aa {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+  justify-self: center;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.bad {
+  width: 100px;
+}
+
+.reaction {
+  margin-top: 40px;
+  background-color: #d9d8d8;
+}
+
+.cusi-img img,
+.cusii-img img,
+.cusiii-img img {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.cus-i,
+.cus-ii,
+.cus-iii {
+  background-color: white;
+  width: 90%;
+  justify-self: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.reaction-p {
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.conn {
+  margin-top: 60px;
+}
+
+.mapp {
+  width: 100%;
+}
+
+.la input {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border: #3a3939 2px solid;
+  border-radius: 10px;
+}
+
+.la {
+  margin-top: 40px;
+  justify-self: center;
+}
+
+.sumit input {
+  width: 120px;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #3a3939;
+  color: white;
+  cursor: pointer;
+}
+
+.sumit {
+  justify-self: center;
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.concluding {
+  padding: 1rem;
+  background-color: #3a3939;
+  color: white;
+}
+
+.webs {
+  display: flex;
+}
+
+.name {
+  margin-top: 20px;
+  font: 1.5rem;
+  font-weight: 900;
+}
+
+img {
+  width: 60px;
+}
+
+.view,
+.review,
+.see,
+.type {
+  margin-top: 10px;
+}
+
+.see {
+  margin-bottom: 10px;
+}
+
+.bottom {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.mapp iframe {
+  width: 100%;
+}
+
+.icn-one {
+  display: flex;
+}
+
+.opn img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.remo img {
+  width: 30px;
+  height: 30;
+  border-radius: 5px;
+}
+
+.vipre img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 3px;
 }
 
 @media screen and (min-width: 768px) {
@@ -109,7 +361,13 @@ header {
   a:hover {
     background-color: #cfcece;
     color: #3a3939;
-    padding: 29px;
+    padding: 15px;
+    margin-top: -8px;
+  }
+
+  a.active {
+    background-color: #cfcece;
+    color: #3a3939;
   }
 
   .head h1 {
@@ -119,5 +377,122 @@ header {
 
   .main-butt {
     margin-top: 80px;
+  }
+
+  .sec-h h2 {
+    margin-top: 50px;
+    font-size: 2.3rem;
+  }
+
+  .sec-h p {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .sec-img {
+    display: flex;
+    gap: 1rem;
+    justify-self: center;
+  }
+
+  .section-i {
+    width: 600px;
+    justify-self: center;
+  }
+
+  .section-ii {
+    display: flex;
+    gap: 7rem;
+    justify-self: center;
+    margin-top: 40px;
+  }
+
+  .sec-iv {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 60px;
+    background-color: #d9d8d8;
+  }
+
+  .map-contact {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .mapp {
+    width: 65%;
+    margin-left: 20px;
+  }
+
+  .la input {
+    width: 300px;
+  }
+
+  .features {
+    width: 350px;
+    margin-left: 100px;
+    margin-top: 150px;
+  }
+
+  .hh {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .seciv-img img {
+    width: 450px;
+    padding-top: 20px;
+  }
+
+  .aaa {
+    gap: 1rem;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .aa {
+    gap: 1rem;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .bad {
+    width: 200px;
+  }
+
+  .cus-i,
+  .cus-ii,
+  .cus-iii {
+    display: flex;
+    gap: 2rem;
+    width: 90%;
+    justify-self: center;
+    text-align: start;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .cusi-body,
+  .cusii-body,
+  .cusiii-body {
+    margin-top: 60px;
+  }
+
+  .cusi-img img,
+  .cusii-img img,
+  .cusiii-img img {
+    width: 300px;
+    height: 300px;
+    margin-top: -3px;
+  }
+
+  .end {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .policy {
+    display: flex;
+    gap: 1rem;
   }
 }
